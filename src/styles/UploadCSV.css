@@ -1,0 +1,65 @@
+.bgm-img {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  /* background-color: #ccc; */
+  border-radius: 20px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
+:root {
+  --body-bg: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  --box-bg: #fff;
+  --input-bg: white;
+  --txt-color: #2f2d2f;
+  --txt-second-color: #ccc;
+  --border-color: #4267b2;
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  background: var(--body-bg);
+  color: var(--txt-color);
+
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+
+  height: 100vh;
+}
+
+.box {
+  background-color: var(--box-bg);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+  height: 500px;
+  width: 700px;
+  margin-left: 15em;
+  margin-top: 5em;
+}
+
+.header {
+  margin-bottom: 30px;
+  text-align: center;
+}

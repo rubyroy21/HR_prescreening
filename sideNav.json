@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "section": "Upload CSV",
+            "icon": "<BiUpload/>",
+            "children": [
+                {
+                    "id": "uploadCsv",
+                    "name": "UPLOAD CSV"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "section": "Question Bank",
+            "icon": "<MdOutlineQuestionAnswer/>",
+            "children": [
+                {
+                    "id": "general",
+                    "name": "GENERAL"
+                }
+            ]
+        }
+    ]
+}
