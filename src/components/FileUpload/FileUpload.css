@@ -19,11 +19,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /* border: 1px solid black; */
 }
 
 .newItems {
   width: 250px;
-  height: 400px;
+  height: 370px;
   /* border: 1px solid red; */
   overflow: scroll;
   overflow-x: hidden;
@@ -35,7 +36,7 @@
   gap: 20px;
   align-items: center;
   padding: 12px 12px 12px 12px;
-  border-bottom: 0.3px solid #e0e0e0;
+  border-bottom: 0.3px dashed #e0e0e0;
 }
 
 .deleteBtn {
